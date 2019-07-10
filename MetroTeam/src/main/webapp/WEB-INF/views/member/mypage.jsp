@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>회원 페이지</title>
 <link href="../../resources/css/bootstrap.css" rel="stylesheet" />
 <script type="text/javascript" src='../../resources/js/jquery-3.4.1.js'></script>
 <script type="text/javascript" src='../../resources/js/bootstrap.js'></script>
