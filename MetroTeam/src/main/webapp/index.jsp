@@ -38,10 +38,16 @@
       <td>@fat</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
+      <th scope="row"><a href='#' class='btn btn-outline-warning'>테스트</a></th>
+    	<td><a href='station/linemap.do' class='btn btn-outline-success'>LINE-MAP</a></td>
+    	<td><a href='station/station.do' class='btn btn-outline-secondary'>STATION</a></td>
+    	<td><a href='cs/noticeList.do' class='btn btn-outline-primary'>공지사항</a></td>
+    </tr>
+    <tr>
+    	<th scope="row"><a href='member/mypage.do' class='btn btn-outline-warning'>마이페이지</a></th>
+    	<td><a href='station/lineinfo.do' class='btn btn-outline-success'>LINE-INFO</a></td>
+    	<td><a href='train/traininfo.do' class='btn btn-outline-secondary'>TRAIN-INFO</a></td>
+    	<td><a href='cs/favorite.do' class='btn btn-outline-primary'>즐겨찾기</a></td>
     </tr>
   </tbody>
 	</table>
