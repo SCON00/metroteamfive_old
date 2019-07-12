@@ -5,4 +5,34 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 <mapper namespace="member">
 	
+	<select id="midCheck" parameterType="member" resultType="member">
+		SELECT mid, email, mtel, pass, username, intro, mdate 
+		FROM member
+		WHERE
+		<if test="email != null">
+			email=#{email}
+		</if>
+		<if test="mtel != null">
+			mtel=#{mtel}
+		</if> 
+		<if test="username != null">
+			username=#{username}
+		</if>
+	</select>
+		
+	<select id="login" parameterType="member" resultType="member">
+		SELECT mid, email, mtel, pass, username, intro, mdate
+		FROM member
+		WHERE pass=#{pass} 
+		<if test="email != null">
+			and email=#{email}
+		</if>
+		<if test="mtel != null">
+			and mtel=#{mtel}
+		</if> 
+		<if test="username != null">
+			and username=#{username}
+		</if>
+	</select>
+	
 </mapper>
