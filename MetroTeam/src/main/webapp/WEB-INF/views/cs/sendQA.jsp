@@ -6,8 +6,8 @@
 <meta charset="UTF-8">
 <title> QnA 작성 </title>
 <link href="/MetroTeamTest/resources/css/bootstrap.css" rel="stylesheet" />
-<script type="text/javascript" src='/MetroTeamTest/resources/js/jquery-3.4.1.js'></script>
-<script type="text/javascript" src='/MetroTeamTest/resources/js/bootstrap.js'></script>
+<script type="text/javascript" src='/MetroTeam/resources/js/jquery-3.4.1.js'></script>
+<script type="text/javascript" src='/MetroTeam/resources/js/bootstrap.js'></script>
 <!-- css -->
 <style type="text/css">
 #qnaForm {

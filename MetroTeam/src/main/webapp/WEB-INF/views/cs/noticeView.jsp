@@ -7,8 +7,8 @@
 <title> 공지글 상세 보기 </title>
 
 <link href="/MetroTeamTest/resources/css/bootstrap.css" rel="stylesheet" />
-<script type="text/javascript" src='/MetroTeamTest/resources/js/jquery-3.4.1.js'></script>
-<script type="text/javascript" src='/MetroTeamTest/resources/js/bootstrap.js'></script>
+<script type="text/javascript" src='/MetroTeam/resources/js/jquery-3.4.1.js'></script>
+<script type="text/javascript" src='/MetroTeam/resources/js/bootstrap.js'></script>
 
 <style type="text/css">
 img {
@@ -32,8 +32,8 @@ img {
 							<th scope="col"> | ${notice.ntitle }</th>
 						</tr>
 						<tr>
-							<td scope="col"><img src="/MetroTeamTest/resources/img/noticeView_clock.png"/> ${notice.ndate }</td>
-							<td scope="col"><img src="/MetroTeamTest/resources/img/noticeView_book.png"/> ${notice.cnt }</td>
+							<td scope="col"><img src="/MetroTeam/resources/img/noticeView_clock.png"/> ${notice.ndate }</td>
+							<td scope="col"><img src="/MetroTeam/resources/img/noticeView_book.png"/> ${notice.cnt }</td>
 						</tr>
 					</thead>
 					<tbody>
