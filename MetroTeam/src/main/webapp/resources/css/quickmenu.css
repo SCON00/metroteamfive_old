@@ -1,0 +1,37 @@
+/*
+*	퀵 메뉴 css
+*/
+
+#quickMenu {
+	position: absolute;
+	height: auto; /* 퀵메뉴, 배너 이미지의 높이 */
+	width: auto; /* 퀵메뉴, 배너 이미지의 너비*/
+	margin: 0px 0px 0px 600px;
+	/* 가장 오른쪽의 수치가 화면 가운데에서 얼마만큼 오른쪽으로 레이어를 붙일 것인지 설정  */
+	top: 110px; /* 배너 상단에서 얼마나 떨어뜨릴지 설정*/
+	left: 50%; /* 레이어의 시작점이 왼쪽으로 부터 50% 지정 */
+	text-align: left;
+	padding: 25px;
+	border: 3px solid #ffe32e;
+}
+
+#quickMenu > img {
+	margin: 3px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+#tf {
+	width: auto;
+	height: 200px;
+	background-color: white;
+	border-color: white;
+}
+
+#msg {
+	width: 250px;
+	height: 350px;
+	background-color: #ffe95c;
+	border-color: #ffe95c;
+}
