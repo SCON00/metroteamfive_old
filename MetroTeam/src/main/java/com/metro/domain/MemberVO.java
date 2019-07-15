@@ -6,7 +6,7 @@ public class MemberVO {
 	private String mtel;
 	private String pass;
 	private String username;
-	private String intro;
+	private String intro; 
 	private String mdate;
 	
 	public String getMid() {

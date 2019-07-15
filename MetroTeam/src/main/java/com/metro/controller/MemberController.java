@@ -13,7 +13,7 @@ import com.metro.service.MemberService;
 @RequestMapping("member/")
 public class MemberController {
 	
-	@Autowired
+	@Autowired 
 	MemberService memberService;
 	
 	String regExp="^[0-9]+$";

@@ -3,8 +3,7 @@
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="member">
-	
+<mapper namespace="member"> 
 	<select id="midCheck" parameterType="member" resultType="member">
 		SELECT mid, email, mtel, pass, username, intro, mdate 
 		FROM member

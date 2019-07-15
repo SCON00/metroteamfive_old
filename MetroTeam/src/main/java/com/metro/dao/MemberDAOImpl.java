@@ -10,7 +10,7 @@ import com.metro.domain.MemberVO;
 public class MemberDAOImpl implements MemberDAO {
 
 	@Autowired
-	private SqlSessionTemplate mybatis;
+	private SqlSessionTemplate mybatis; 
 	
 	@Override
 	public MemberVO midCheck(MemberVO vo) {

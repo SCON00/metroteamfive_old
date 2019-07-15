@@ -8,7 +8,7 @@ import com.metro.domain.MemberVO;
 
 @Service("memberService")
 public class MemberServiceImpl implements MemberService {
-
+ 
 	@Autowired
 	private MemberDAO memberDAO;
 	
