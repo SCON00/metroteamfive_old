@@ -6,9 +6,9 @@
 <head>
 <meta charset="UTF-8">
 <title> QnA 상세 보기 </title>
-<link href="/MetroTeamTest/resources/css/bootstrap.css" rel="stylesheet" />
-<script type="text/javascript" src='/MetroTeamTest/resources/js/jquery-3.4.1.js'></script>
-<script type="text/javascript" src='/MetroTeamTest/resources/js/bootstrap.js'></script>
+<link href="./../resources/css/bootstrap.css" rel="stylesheet" />
+<script type="text/javascript" src='./../resources/js/jquery-3.4.1.js'></script>
+<script type="text/javascript" src='./../resources/js/bootstrap.js'></script>
 </head>
 <body>
 
@@ -24,13 +24,13 @@
 				<!-- 문의 카테고리 -->
 				<div class="form-group">
 					<div class="panel panel-default">
-						<div class="panel-heading"> 문의 사항 </div>
+						<div class="panel-heading"> [문의 사항]</div>
 						<div class="panel-body">
-						<c:if test="${qA.category } == '1'">
-							일반 문의
+						<c:if test="${qA.category  == 1}">
+							 - 일반 문의
 						</c:if>
-						<c:if test="${qA.category } == '2'">
-							개선 및 제안
+						<c:if test="${qA.category  == 2}">
+							 - 개선 및 제안
 						</c:if>
 						</div>
 					</div>
@@ -52,7 +52,7 @@
 						</tr>
 						
 						<!-- qfile이 null이면 추가x, null이 아니면 추가o -->
-						<c:if test="${qA.qfile } != null">
+						<c:if test="${qA.qfile != null }">
 							<tr>
 								<td align="left">+ 첨부파일 추가</td>
 								<td>${qA.qfile }</td>
@@ -73,7 +73,7 @@
 					<a href="deleteQA.do?qid=${qA.qid }">
 						<input type="button" value="삭제" class="btn btn-danger" />
 					</a>
-					<a href="qnAList.do">
+					<a href="qAList.do">
 						<input type="button" value="목록가기" class="btn btn-info" />
 					</a>
 					

@@ -67,15 +67,15 @@
 			이미지 순서: 날씨, 역/노선검색, 메세지, 상향, 하향
 	 -->
 	<div id="quickMenu">
-		<img id="weather" src="resources/img/quickmenu_cloudy.png" 
+		<img id="weather" src="./resources/img/quickmenu_cloudy.png" 
 			class="img-responsive" alt="Responsive image"/><br/>
-		<img id="map" src="resources/img/quickmenu_map.png" 
+		<img id="map" src="./resources/img/quickmenu_map.png" 
 			class="img-responsive" alt="Responsive image"/><br/>
-		<img id="message" src="resources/img/quickmenu_conversation.png" 
+		<img id="message" src="./resources/img/quickmenu_conversation.png" 
 			class="img-responsive" alt="Responsive image"/><br/>
-		<img id="up" src="resources/img/quickmenu_up.png" 
+		<img id="up" src="./resources/img/quickmenu_up.png" 
 			class="img-responsive" alt="Responsive image"/><br/>
-		<img id="down" src="resources/img/quickmenu_down.png" 
+		<img id="down" src="./resources/img/quickmenu_down.png" 
 			class="img-responsive" alt="Responsive image"/>
 	</div>
 	
